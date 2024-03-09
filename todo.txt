@@ -1,0 +1,10 @@
+1.Find out the HTml tags
+2.create a readme file ##reaserch on the contents of readme file
+3.Add aliogin and a register page 
+4.use this syting
+   4.1 center div
+   4.2 gradient colour 
+   4.3 alighning divs 
+
+
+
