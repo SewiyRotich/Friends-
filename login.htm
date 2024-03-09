@@ -4,20 +4,33 @@
     </head>
     <body>
     <form action="form.php" method="POST" >
-        <label for="name">name
-            <input type="text" name="name"  id ="name">
+        <div class="box">
+            <table>
+         <tr> <td><h1>fill the form below</h1></td>  </tr>  
+    
+      <tr> <td> <label for="name"> name</td> 
+          <td><input type="text" name="name"  id ="name"></td>  
+        </label></tr>  
+  <br>
+  <br>
+  <tr>
+        <label> <td>Email Address: </td>
+         <td> <input type="email" name="email" id="email"> </td>  
         </label>
-
-        <label>
-            <input type="email" name="email" id="email"> Email Address: 
+    </tr>
+<br>
+<br>
+      <tr>  <td><label>
+            PSWD</td>
+         <td><input type="password" name="pswd" id="pswd"></td>   
+        
         </label>
-
-        <label>
-            PSWD
-            <input type="password" name="pswd" id="pswd">
-        </label>
-
+    </tr>
+    </table>
+<br>
+<br>
         <button type="submit">submit</button>
+    </div>
     </form>
     </body>
 </html>

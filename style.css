@@ -22,3 +22,8 @@ body{
 
 }
 
+.box{
+    background-color:violet;
+    max-width: 600px;
+    border-radius: 5px;
+}
