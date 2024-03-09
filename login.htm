@@ -3,28 +3,21 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div style="background-color: aliceblue;">
-    <form action="forms.php" method="post"></form>
-            <table>
+    <form action="form.php" method="POST" >
+        <label for="name">name
+            <input type="text" name="name"  id ="name">
+        </label>
 
-        <tr>
-        <td><p>Name</p></td> 
-         <td><input name="name" id="name"   type="text"></td>
-      </tr>
+        <label>
+            <input type="email" name="email" id="email"> Email Address: 
+        </label>
 
-       <tr>
-       <td><p>Email</p></td>
-       <td><input name="email"  id="email"  type="email"></td>
-       </tr>
+        <label>
+            PSWD
+            <input type="password" name="pswd" id="pswd">
+        </label>
 
-       <tr>
-       <td><p>Password</p></td>
-        <td><input name="pswd"  id="pswd" type="password"></td>
-       </tr>
-            </table>
-
-            <button type="submit"  >SUBMIT</button>
-        </form>
-    </div>
+        <button type="submit">submit</button>
+    </form>
     </body>
 </html>
